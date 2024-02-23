@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    padding: 0px;
+    background-color: whitesmoke
+}
+
+.container {
+    max-width: 500px;
+    margin: 40;
+    padding: 50px;
+    box-shadow: 10px 20px 30px #333;
+}
+
+header {
+    background-color: cyan
+    color: white;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.profile-image {
+    width: 150px;
+    height: 150px; 
+    border-radius: 75%;
+}
+
+
+button {
+    background-color: #fff; 
+    color: #2b45b9; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #ad7ed9; 
+    color: white; 
+}
+
+#about h2 {
+    font-weight: bold; 
+    text-transform: uppercase; 
+    font-family: Arial, sans-serif; 
+}
+
+#skills h2 {
+    text-transform: uppercase;
+}
+
+#projects h2 {
+    text-transform: uppercase;
+}
+
+#about p {
+    font-family: Arial, sans-serif; 
+    font-weight: normal; 
+    text-align: justify
+
+section {
+    background-color: burlywood;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project {
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #141414;
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.icon {
+    display: inline-block;
+    margin: 0 20px; 
+    color: #fff;
+    text-decoration: none;
+}
+
+.linkedin-icon {
+    max-width: 30px;
+    height: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%; 
+    }
+
+    .icon {
+        margin: 0 10px; 
+    }
+}
